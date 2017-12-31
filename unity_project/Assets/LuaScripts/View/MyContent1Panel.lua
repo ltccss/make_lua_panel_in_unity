@@ -44,6 +44,7 @@ function MyContent1Panel:_FindComponent(pGameObject)
         SceneObjectPathTool.FindEx(tTransform, "Canvas/Image (5)").gameObject:GetComponent("RectTransform"),
         SceneObjectPathTool.FindEx(tTransform, "Canvas/Image (6)").gameObject:GetComponent("RectTransform"),
     };
+    --i am daddy not mami
     self.daddyArray = {
         SceneObjectPathTool.FindEx(tTransform, "../Daddy1"),
         SceneObjectPathTool.FindEx(tTransform, "../Daddy2"),

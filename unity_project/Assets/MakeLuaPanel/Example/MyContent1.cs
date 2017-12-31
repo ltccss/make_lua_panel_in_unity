@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyContent1 : MakeLuaPanel 
+public class MyContent1 :MakeLuaPanel//: MonoBehaviour 
 {
+    [MLPException()]
+    public GameObject igonreMePls;
     public UnityEngine.UI.Text text1;
     public UnityEngine.UI.Text text2;
     public List<RectTransform> rectTransformList = new List<RectTransform>();
+    [MLPAnnotation("i am daddy not mami")]
     public Transform[] daddyArray;
 
     //[ContextMenu("aaa")]
