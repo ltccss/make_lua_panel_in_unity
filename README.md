@@ -1,4 +1,4 @@
-# 这玩意儿能做什么？
+# 功能介绍
 假设你有一个C#脚本，并且在界面上绑定了一些对象，就像这样：
 
 ![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/how_to_use_1.png)
@@ -55,7 +55,7 @@ emmm，这就是这玩意儿干的事情
 
 如果你家老板不介意这个，那么下面可以忽略
 
-如果你家老板介意，而你又炒不掉他的时候
+如果你家老板介意，而你又肛不过他的时候
 
 那么我建议你在打bundle之前把所有附着了MakeLuaPanel子类的prefab和scene先临时备份下，
 
