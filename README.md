@@ -1,25 +1,6 @@
 # 功能介绍
-假设你有一个C#脚本，并且在界面上绑定了一些对象，就像这样：
 
-![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/how_to_use_1.png)
-
-
-修改一下C#脚本中的类的继承关系（把MonoBehaviour改成提供的MakeLuaPanel）：
-
-
-![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/how_to_use_2.png)
-
-然后：
-
-
-![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/how_to_use_3.png)
-
-你将得到这么一个东西
-
-
-![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/how_to_use_4.png)
-
-emmm，这就是这玩意儿干的事情
+![img](https://github.com/ltccss/make_lua_panel_in_unity/raw/master/doc/usage.gif)
 
 
 # 特性
