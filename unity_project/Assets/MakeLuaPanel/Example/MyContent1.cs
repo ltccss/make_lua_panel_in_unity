@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MyContent1 :MakeLuaPanel//: MonoBehaviour 
 {
+    [Header("========= Begin Your Script =========")]
     [MLPException()]
     public GameObject igonreMePls;
     public UnityEngine.UI.Text text1;
