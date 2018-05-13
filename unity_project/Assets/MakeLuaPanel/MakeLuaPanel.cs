@@ -62,6 +62,7 @@ public class MakeLuaPanel : MonoBehaviour
     /// the target lua file that this script will generate, the default value is Assets/LuaScripts/View/{luaClassName}.lua if empty
     /// </summary>
     [Header("Default:Assets/LuaScripts/View/{luaClassName}.lua")]
+    [MLPDivisionBelow()]
     public UnityEngine.Object targetLuaFile;
     #if UNITY_EDITOR
     static Encoding utf8WithoutBom = new System.Text.UTF8Encoding(false);

@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 /// <summary>
 /// 标记字段不要在lua文件中生成对应的内容
@@ -56,4 +57,9 @@ public class MLPAnnotation : Attribute
             return mAddType;
         }
     }
+}
+
+public class MLPDivisionBelow:PropertyAttribute
+{
+
 }
