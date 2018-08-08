@@ -40,7 +40,7 @@ function MakeLuaPanelTemplate:ReleasePanel()
 
     self:_ReleaseComponent();
 
-    --if you want to handle other thing when releasing the panel, write them here
+    --if you want to do other things when releasing the panel, write them here
 
 
 end

@@ -1,10 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+/**
+[MLPSerializableClass][Serializable]
+public class CustomData
+{
+    public float x;
+    public float y;
+    public float z;
+
+    public Vector3 a;
+    public Color ss;
+}
+ * **/
 public class MyContent1 :MakeLuaPanel//: MonoBehaviour 
 {
-    [Header("========= Begin Your Script =========")]
     [MLPException()]
     public GameObject igonreMePls;
     public UnityEngine.UI.Text text1;
@@ -12,6 +24,10 @@ public class MyContent1 :MakeLuaPanel//: MonoBehaviour
     public List<RectTransform> rectTransformList = new List<RectTransform>();
     [MLPAnnotation("i am daddy not mami")]
     public Transform[] daddyArray;
+
+    //public List<CustomData> dataList;
+
+    public int[][] arr;
 
     //[ContextMenu("aaa")]
     public void Test()
